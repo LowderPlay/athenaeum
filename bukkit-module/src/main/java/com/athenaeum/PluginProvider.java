@@ -17,7 +17,7 @@ public class PluginProvider {
     }
 
     public File getLibraryFolder() {
-        return new File("plugins/Athenaeum");
+        return providing.getDataFolder();
     }
 
 }
